@@ -10,7 +10,7 @@ app = Flask(__name__)
 def get_info():
     response = OrderedDict([
         ("email", "emmyprime2015@gmail.com"),
-        ("current_date", datetime.now(pytz.UTC).isoformat()),
+        ("current_datetime", datetime.now(pytz.UTC).isoformat()),
         ("github_url", "https://github.com/Emmalywebcreator/")
     ])
     
